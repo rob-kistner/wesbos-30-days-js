@@ -1,6 +1,6 @@
-const checkboxes = document.querySelectorAll('.inbox input[type="checkbox"');
+const checkboxes = document.querySelectorAll('.inbox input[type="checkbox"')
 
-let lastChecked;
+let lastChecked
 
 function handleCheck(e) {
   let inBetween = false;
